@@ -5,14 +5,14 @@
         id        = "com.moodle.moodlemobile"
         versionCode = "2014"
         version   = "3.1.2">
-    <name>Moodle Mobile</name>
+    <name>MLS Moodle</name>
 
     <description>
-        Moodle Mobile official app
+        MLS Moodle Mobile app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://moodle.com" email="osama.nafady@mls.edu.eg">
+            Osama Nafady
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -33,7 +33,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-6.1.0" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
