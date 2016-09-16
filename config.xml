@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.moodle.learn"
-        versionCode = "3"
-        version   = "1.2">
-    <name>Learn Moodle</name>
+        id        = "net.moodle.mls"
+        versionCode = "2016"
+        version   = "1.0">
+    <name>MLS Moodle</name>
 
     <description>
-        Learn Moodle
+        MLS Moodle Mobile App
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://moodle.com" email="osama.nafady@mls.edu.eg">
+       Osama Nafady
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -34,7 +34,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-6.1.0" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
