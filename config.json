@@ -8,6 +8,5 @@
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-    "siteurl": "http://lms-mls-national.com/",
-    "gcmpn": "net.moodle.mls"
+    "gcmpn": "mls"
 }
