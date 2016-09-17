@@ -11369,7 +11369,7 @@ angular.module('mm.core.login')
         siteChecked = true;
     }
     $scope.signup = function() {
-        $mmUtil.openInBrowser("https://learn.moodle.net/login/signup.php");
+        $mmUtil.openInBrowser("http://lms-mls-national.com/");
     }
     $scope.login = function() {
         $mmApp.closeKeyboard();
@@ -37516,16 +37516,16 @@ angular.module('mm.addons.mod_quiz')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "net.moodle.learn",
-    "versioncode" : "3",
-    "versionname" : "1.2",
+    "app_id" : "net.moodle.mls",
+    "versioncode" : "2016",
+    "versionname" : "1.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
     "languages": {"ar": "عربي", "bg": "Български", "ca": "Català", "cs": "Čeština", "da": "Dansk", "de": "Deutsch","en": "English", "es": "Español", "es-mx": "Español - México", "eu": "Euskara", "fa": "فارسی", "fr" : "Français", "he" : "עברית", "hu": "magyar", "it": "Italiano", "ja": "日本語","nl": "Nederlands", "pl": "Polski", "pt-br": "Português - Brasil", "pt": "Português - Portugal", "ro": "Română", "ru": "Русский", "sv": "Svenska", "tr" : "Türkçe", "zh-cn" : "简体中文", "zh-tw" : "正體中文"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-    "siteurl": "https://learn.moodle.net/",
-    "gcmpn": "learn-moodle-1159"
+    "siteurl": "http://lms-mls-national.com/",
+    "gcmpn": "mls"
 }
 );
